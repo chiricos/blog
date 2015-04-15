@@ -1,0 +1,484 @@
+
+.hidden, #hidden{
+    display: none;
+}
+
+body, html{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    height: 117px;
+    margin: auto;
+    width: 960px;
+}
+
+header section figure, header section div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+header section div section{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header-up{
+    border-bottom: 2px solid #14B3E3;
+    min-height: 80px;
+}
+
+.header-up figure{
+    margin: 26px 0px 7px 36px;
+}
+
+.header-numbers{
+    float: right;
+}
+
+.numbers-tel{
+    margin: auto 32px auto 20px;
+}
+
+.numbers-tel p{
+    margin-bottom: -11px;
+}
+
+.numbers-tel p span {
+    font-weight: 700;
+}
+
+.numbers-pbx p{
+    margin-bottom: -11px;
+    text-align: end;
+    font-weight: 700;
+}
+
+.numbers-pbx img {
+    margin-top: 18px;
+    float: right;
+
+}
+
+.logo{
+    height: 52px;
+    width: 267px;
+}
+
+.header-menu{
+    font-size: 16px;
+}
+
+.header-menu p , .header-menu div a{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header-menu p{
+
+    height: 26px;
+    margin-top: 0;
+    text-align: end;
+    width: 304px;
+    padding: 6px 12px;
+    font-weight: 100;
+}
+
+.header-menu div{
+    background:#14B3E3 ;
+    height: 26px;
+    width: 598px;
+}
+
+.header-menu div a{
+    color: white;
+    font-weight: lighter;
+    margin: 4px 8px;
+    height: 26px;
+
+}
+
+.header-menu div a:first-child {
+    margin-left: 40px;
+}
+
+.header-menu div a:hover{
+    color: #cefffd;
+    cursor: pointer;
+}
+
+/** MENU WEB Y APP **/
+
+.menu-web-y-app{
+    height: 270px;
+    width: 590px;
+    left: 42.7%;
+    position: fixed;
+}
+
+.web-line{
+    width: 100%;
+    background: #14B3E3;
+    height: 2px;
+    display: block;
+    margin: 5px 0px;
+}
+
+.web-content{
+    border: 4px solid #14B3E3;
+    padding: 18px;
+}
+
+.menu-web-y-app section p span{
+    border-radius: 0px 10px 10px 10px;
+    width: 4px;
+    height: 4px;
+    border:1px solid #14B3E3;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-web-y-app section p a{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-web-y-app section{
+    border-top:1px solid rgba(0, 0, 0, 0.21) ;
+}
+
+.menu-web-y-app h2{
+    font-size: 16px;
+    margin-top: -6px;
+    margin-bottom: 7px;
+}
+
+.web-section article, .web-section1 article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.web-section article p , .web-section1 article p{
+    height: 7px;
+}
+
+.web-section article:first-child{
+    margin-bottom: 18px;
+    margin-right: 78px;
+}
+
+.first-articule{
+    margin-right: 39px;
+}
+
+/** MENU branding **/
+
+.menu-branding{
+    height: 270px;
+    width: 590px;
+    left: 42.7%;
+    position: fixed;
+}
+
+.branding-line{
+    width: 100%;
+    background: #14B3E3;
+    height: 2px;
+    display: block;
+    margin: 5px 0px;
+}
+
+.branding-content{
+    border: 4px solid #14B3E3;
+    padding: 18px;
+}
+
+.menu-branding section p span{
+    border-radius: 0px 10px 10px 10px;
+    width: 4px;
+    height: 4px;
+    border:1px solid #14B3E3;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-branding section p a{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-branding section{
+    border-top:1px solid rgba(0, 0, 0, 0.21) ;
+}
+
+.menu-branding h2{
+    font-size: 16px;
+    margin-top: -6px;
+    margin-bottom: 7px;
+}
+
+.branding-section article, .web-section1 article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.branding-section article p , .web-section1 article p{
+    height: 7px;
+}
+
+.branding-section article:first-child{
+    margin-bottom: 18px;
+    margin-right: 40px;
+}
+
+.second-article{
+    margin-right: 34px;
+}
+
+.first-articule{
+    margin-right: 39px;
+}
+
+
+/** MENU MARKETING **/
+
+.menu-marketing{
+    height: 270px;
+    width: 590px;
+    left: 42.7%;
+    position: fixed;
+}
+
+.marketing-line{
+    width: 100%;
+    background: #14B3E3;
+    height: 2px;
+    display: block;
+    margin: 5px 0px;
+}
+
+.marketing-content{
+    border: 4px solid #14B3E3;
+    padding: 18px;
+}
+
+.menu-marketing section p span{
+    border-radius: 0px 10px 10px 10px;
+    width: 4px;
+    height: 4px;
+    border:1px solid #14B3E3;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-marketing section p a{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-marketing section{
+    border-top:1px solid rgba(0, 0, 0, 0.21) ;
+}
+
+.menu-marketing h2{
+    font-size: 16px;
+    margin-top: -6px;
+    margin-bottom: 7px;
+}
+
+.marketing-section article, .marketing-section1 article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.marketing-section article p , .marketing-section1 article p{
+    height: 7px;
+}
+
+.marketing-section article:first-child{
+    margin-right: 40px;
+}
+
+.second-article{
+    margin-right: 20px;
+}
+
+.first-articule{
+    margin-right: 39px;
+}
+
+/** MENU produccion **/
+
+.menu-produccion{
+    height: 270px;
+    width: 590px;
+    left: 42.7%;
+    position: fixed;
+}
+
+.produccion-line{
+    width: 100%;
+    background: #14B3E3;
+    height: 2px;
+    display: block;
+    margin: 5px 0px;
+}
+
+.produccion-content{
+    border: 4px solid #14B3E3;
+    padding: 18px;
+}
+
+.menu-produccion section p span{
+    border-radius: 0px 10px 10px 10px;
+    width: 4px;
+    height: 4px;
+    border:1px solid #14B3E3;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-produccion section p a{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-produccion section{
+    border-top:1px solid rgba(0, 0, 0, 0.21) ;
+}
+
+.menu-produccion h2{
+    font-size: 16px;
+    margin-top: -6px;
+    margin-bottom: 7px;
+}
+
+.produccion-section article, .produccion-section1 article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.produccion-section article p , .produccion-section1 article p{
+    height: 7px;
+}
+
+.produccion-section article:first-child{
+    margin-right: 40px;
+}
+
+.second-article{
+    margin-right: 20px;
+}
+
+.first-articule{
+    margin-right: 39px;
+}
+
+.back{
+    background: linear-gradient(red, blue,white);
+    width: 960px;
+    margin: auto;
+    height: 300px;
+}
+
+/************************* FORMULARIO *************************/
+
+.formBody{
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(270deg,rgb(0, 76, 165) 1%, rgb(0, 183, 187) 104%);
+    background: -webkit-linear-gradient(270deg,rgb(0, 76, 165) 1%, rgb(0, 183, 187) 104%);
+    background: -o-linear-gradient(270deg,rgb(0, 76, 165) 1%, rgb(0, 183, 187) 104%);
+    background: -ms-linear-gradient(270deg,rgb(0, 76, 165) 1%, rgb(0, 183, 187) 104%);
+    background: linear-gradient(270deg,rgb(0, 76, 165) 1%, rgb(0, 183, 187) 104%);
+    font-family: ubuntu, sans-serif;
+}
+
+.formContent{
+    width: 915px;
+    height: 521px;
+    margin: 240px auto auto;
+}
+
+.formContentBack{
+    height: 100%;
+    width: 100%;
+}
+
+.formContentFront{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: -521px;
+}
+
+.figureTable{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.imgTable{
+    width: 384px;
+}
+
+/************************ formulario front ***********************/
+
+.formContentContact, .formContentInputs{
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.formBodyContact{
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border: 1px solid;
+    width: 248px;
+    height: 94px;
+    margin: 360px 10px 360px 45px;
+}
+
+.formContentInputs{
+    margin-top: 55px;
+    height: 400px;
+    width: 500px;
+}
+
+.formInput, .formInputs{
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    margin-top: -27px;
+}
+
+.formInputs{
+    margin-left: 30px;
+}
+
+.formText, .formText1{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inputForm{
+    width: 218px;
+    min-height: 15px;
+    padding: 4px;
+    color: #002E6D;
+    font-family: ubuntu, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.formP{
+    font-size: 18px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: ubuntu, sans-serif;
+    font-weight: 400;
+}
